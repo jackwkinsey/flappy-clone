@@ -1,0 +1,1 @@
+﻿using UnityEngine;using UnityEngine.SceneManagement;public class SeaweedCollisionHandler : MonoBehaviour {    private void OnTriggerEnter2D(Collider2D other)    {        SceneManager.LoadScene(0);    }}
